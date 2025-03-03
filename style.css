@@ -1,0 +1,96 @@
+.ota {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+#input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    outline: none;
+    border-color: gray;
+    font-size: 20px;
+}
+
+.li1 {
+    background-color: grey;
+    padding: 20px;
+    width: 600px; 
+    text-align: center;  
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+    border: none;
+    color: black;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.addcolor {
+    background-color: black;
+    color: white;
+}
+
+
+.addcolor #input {
+    color: black;
+    border-color: white;
+}
+
+.addcolor .btn {
+    background-color: white;
+    color: black;
+}
+
+.addcolor .btn:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+.addcolor .li1 {
+    background-color: grey;
+    color: black; 
+    border: 2px solid white; 
+    transition: 0.5s ease-in-out;
+}
+.addcolor .li1:hover{
+    background-color: orange;
+    color: aqua;
+}
